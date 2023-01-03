@@ -1,3 +1,28 @@
 textarea {
     min-height: 400px;
 }
+.list-item-read,
+.list-item-unread {
+    background-color: #EEEEEE;
+    border-color: #777777;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    margin-top: 2px;
+    padding: 12px;
+}
+
+.list-item-read .timestamp,
+.list-item-unread .timestamp {
+    float: right;
+    text-align: right;
+}
+
+.list-item-read:hover,
+.list-item-unread:hover {
+    background-color: #FFFAFA;
+}
+
+.list-item-unread {
+    background-color: #FFFFFF;
+}
